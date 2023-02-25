@@ -327,6 +327,10 @@ Lección 14: STL (Standard Template Library) (2 horas)
 
 [Curso de C++(Busquen la lista de reproducción en su canal)](https://youtu.be/dJzLmjSJc2c)
 
+## Playground - Práctica sin instalar nada.
+
+[Replit para practicar tú código](https://replit.com/join/okrobaiyqw-alekelbar)
+
 ## Autor
 
 - [@alekelbar](https://linktr.ee/alekelbar)
