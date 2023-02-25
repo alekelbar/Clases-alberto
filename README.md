@@ -151,6 +151,68 @@ Este ejemplo muestra cómo los manipuladores de formato pueden ser útiles para 
 - Estructuras de control de flujo: if, switch, while, do-while, for.
 - Ejemplos prácticos de uso.
 
+Las estructuras de control de flujo son herramientas esenciales en la programación que nos permiten controlar el orden y la repetición de las instrucciones que se ejecutan en un programa. A continuación, te explicaré cada una de ellas:
+
+if: El if es una estructura de control condicional que se utiliza para ejecutar un bloque de código si se cumple una condición determinada. Por ejemplo:
+
+```
+int x = 10;
+if (x > 5) {
+    cout << "x es mayor que 5";
+}
+```
+En este caso, la condición x > 5 se evalúa como verdadera, por lo que se ejecutará la instrucción dentro del bloque de código del if.
+
+switch: El switch es otra estructura de control condicional que permite ejecutar diferentes bloques de código según el valor de una variable. Por ejemplo:
+
+```
+int opcion = 2;
+switch (opcion) {
+    case 1:
+        cout << "Opción 1 seleccionada";
+        break;
+    case 2:
+        cout << "Opción 2 seleccionada";
+        break;
+    default:
+        cout << "Opción no válida";
+}
+```
+
+En este caso, se evalúa el valor de la variable opcion y se ejecuta el bloque de código correspondiente a cada caso. Si la variable no coincide con ningún caso, se ejecuta el bloque de código del default.
+
+while: El while es una estructura de control de repetición que permite ejecutar un bloque de código mientras se cumpla una condición determinada. Por ejemplo:
+
+```
+int x = 0;
+while (x < 10) {
+    cout << x << endl;
+    x++;
+}
+```
+En este caso, se ejecutará el bloque de código dentro del while mientras la variable x sea menor que 10.
+
+do-while: El do-while es otra estructura de control de repetición que funciona de manera similar al while, pero asegura que el bloque de código se ejecutará al menos una vez, incluso si la condición no se cumple. Por ejemplo:
+
+```
+int x = 0;
+do {
+    cout << x << endl;
+    x++;
+} while (x < 10);
+```
+En este caso, se ejecutará el bloque de código dentro del do al menos una vez, y luego se comprobará la condición del while.
+
+for: El for es otra estructura de control de repetición que se utiliza para ejecutar un bloque de código un número determinado de veces. Por ejemplo:
+
+```
+for (int i = 0; i < 10; i++) {
+    cout << i << endl;
+}
+```
+En este caso, se ejecutará el bloque de código dentro del for 10 veces, ya que la variable i se inicializa en 0, se ejecuta mientras i sea menor que 10, y se incrementa en 1 en cada iteración.
+
+
 ## Lección 4: Funciones y procedimientos (2 horas)
 - Funciones y procedimientos: definición, - parámetros, valores de retorno.
 - Ejemplos prácticos de uso.
