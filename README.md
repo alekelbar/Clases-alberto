@@ -333,7 +333,7 @@ Lección 14: STL (Standard Template Library) (2 horas)
 
 ## Autor
 
-- [@alekelbar](https://linktr.ee/alekelbar)
+- [@alekelbar - Contacto](https://linktr.ee/alekelbar)
 
 
 ## 🚀 Sobre mi
