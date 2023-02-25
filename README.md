@@ -323,10 +323,9 @@ Lección 14: STL (Standard Template Library) (2 horas)
 ## Lección 14: STL (Standard Template Library) (2 horas)
 - Introducción
 
-## Documentación
+## Recomendación personal
 
-[Documentation](https://docs.google.com/document/d/1q8yNFail2AY_0bGzkzLY8kBk2hSsagK34aTDpU7psTk/edit?usp=sharing)
-
+[Curso de C++(Busquen la lista de reproducción en su canal)](https://youtu.be/dJzLmjSJc2c)
 
 ## Autor
 
