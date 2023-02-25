@@ -39,6 +39,114 @@ En resumen, el proceso de compilación y ejecución en C++ implica la escritura 
 - Formato de entrada y salida de datos.
 - Ejemplos prácticos de uso.
 
+## CIN
+Es un operador de entrada de datos que se utiliza para leer valores desde el teclado. Permite al usuario introducir datos que serán almacenados en variables. Su sintaxis es la siguiente:
+
+```cin >> variable;```
+
+## COUT
+Es un operador de salida de datos que se utiliza para mostrar información en la pantalla. Permite imprimir en la consola de salida valores almacenados en variables, constantes y mensajes de texto. Su sintaxis es la siguiente:
+
+cout << "mensaje o valor: " << variable << endl;
+
+## CERR
+Es un operador de salida de datos que se utiliza para mostrar mensajes de error en la consola de salida estándar. Permite imprimir mensajes de error en la pantalla cuando ocurren situaciones inesperadas durante la ejecución del programa. Su sintaxis es la siguiente:
+
+```cerr << "mensaje de error";```
+
+## CLOG
+Es un operador de salida de datos que se utiliza para mostrar mensajes en la consola de salida estándar. Permite imprimir mensajes en la pantalla para proporcionar información adicional sobre el proceso de ejecución del programa. Su sintaxis es similar a la de cerr:
+
+```clog << "mensaje de información";```
+
+## Formato de entrada de datos
+
+El formato de entrada y salida de datos en C++ se refiere a la forma en que se muestran o se leen los valores en la pantalla y en los archivos de texto. C++ ofrece varias formas de controlar el formato de los datos que se leen o se muestran en la consola o en un archivo, lo que puede ser muy útil para mejorar la legibilidad de la información que se está manipulando.
+
+Para la salida de datos, C++ proporciona un conjunto de manipuladores que permiten controlar el formato de los datos que se muestran en la pantalla o se escriben en un archivo. Algunos de los manipuladores más comunes son:
+
+- setw: Permite especificar el ancho del campo de salida para un valor determinado.
+- setprecision: Permite controlar la cantidad de dígitos que se muestran después del punto decimal para valores de tipo float y double.
+- fixed y scientific: Permite elegir entre el formato de punto flotante fijo o notación científica para los valores de tipo float y double.
+- left y right: Permite alinear a la izquierda o derecha los valores en el campo de salida.
+
+Por ejemplo, se puede mostrar un número flotante con dos decimales de la siguiente manera:
+
+```
+float valor = 3.1416;
+cout << fixed << setprecision(2) << valor << endl;
+```
+La salida de este código sería 3.14.
+
+Para la entrada de datos, C++ ofrece la posibilidad de validar que los valores introducidos por el usuario cumplan con ciertas restricciones o formatos específicos. Por ejemplo, se puede validar que el usuario haya introducido un número entero utilizando el siguiente código:
+
+```
+int valor;
+cin >> valor;
+
+if(cin.fail()) {
+    // Error, el usuario no ha introducido un número entero
+}
+```
+En este ejemplo, se comprueba si ha habido un fallo en la entrada de datos, lo que indicaría que el usuario ha introducido un valor que no se puede convertir a un número entero.
+
+En resumen, el formato de entrada y salida de datos en C++ permite controlar la forma en que se muestran o se leen los valores, lo que puede ser muy útil para mejorar la legibilidad y precisión de la información que se está manipulando.
+
+Ejemplo de entrada y salida de datos:
+
+Supongamos que estamos construyendo un programa para calcular el índice de masa corporal (IMC) de una persona. Para ello, necesitamos pedir al usuario que introduzca su peso y su altura. Podemos hacer esto utilizando el objeto cin de la siguiente manera:
+
+```
+float peso, altura;
+cout << "Introduce tu peso (en kg): ";
+cin >> peso;
+
+cout << "Introduce tu altura (en m): ";
+cin >> altura;
+```
+
+Una vez que hemos recogido los datos, podemos calcular el IMC y mostrar el resultado utilizando el objeto cout:
+
+```
+float imc = peso / (altura * altura);
+cout << "Tu IMC es: " << imc << endl;
+```
+
+Ejemplo de formato de entrada y salida de datos:
+
+Supongamos que queremos mostrar una tabla de valores en la que cada fila tenga tres columnas: el nombre de una persona, su edad y su altura. Para hacerlo, podemos utilizar manipuladores de formato para asegurarnos de que cada columna tenga el ancho adecuado y esté alineada correctamente. Por ejemplo:
+
+
+```
+#include <iostream>
+#include <iomanip> // Para utilizar los manipuladores de formato
+
+using namespace std;
+
+int main() {
+    cout << setw(20) << left << "Nombre" << setw(10) << "Edad" << setw(10) << "Altura" << endl;
+
+    cout << setw(20) << left << "Juan Perez" << setw(10) << 25 << setw(10) << fixed << setprecision(2) << 1.75 << endl;
+
+    cout << setw(20) << left << "Maria Gomez" << setw(10) << 32 << setw(10) << fixed << setprecision(2) << 1.65 << endl;
+
+    cout << setw(20) << left << "Pedro Ramirez" << setw(10) << 45 << setw(10) << fixed << setprecision(2) << 1.80 << endl;
+
+    return 0;
+}
+```
+
+En este ejemplo, utilizamos los manipuladores setw para establecer el ancho de cada columna, left para alinear el texto a la izquierda, y fixed y setprecision para mostrar la altura con dos decimales. La salida resultante sería:
+
+```
+Nombre              Edad    Altura    
+Juan Perez          25      1.75      
+Maria Gomez         32      1.65      
+Pedro Ramirez       45      1.80      
+```
+Este ejemplo muestra cómo los manipuladores de formato pueden ser útiles para mostrar los datos de una manera clara y organizada, lo que puede ser especialmente importante cuando se trabaja con grandes cantidades de información.
+
+
 ## Lección 3: Estructuras de control de flujo (2 horas)
 - Estructuras de control de flujo: if, switch, while, do-while, for.
 - Ejemplos prácticos de uso.
