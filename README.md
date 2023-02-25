@@ -212,6 +212,66 @@ for (int i = 0; i < 10; i++) {
 ```
 En este caso, se ejecutará el bloque de código dentro del for 10 veces, ya que la variable i se inicializa en 0, se ejecuta mientras i sea menor que 10, y se incrementa en 1 en cada iteración.
 
+Ejemplos practicos:
+
+- if
+```
+int age = 20;
+if (age >= 18) {
+    cout << "Eres mayor de edad." << endl;
+} else {
+    cout << "Eres menor de edad." << endl;
+}
+```
+En este ejemplo, se utiliza una estructura de control if para verificar si una persona es mayor o menor de edad, basándose en su edad. Si la edad es mayor o igual a 18, se imprime el mensaje "Eres mayor de edad", de lo contrario se imprime "Eres menor de edad".
+
+- Switch
+```
+int option = 3;
+switch (option) {
+    case 1:
+        cout << "Opción 1 seleccionada." << endl;
+        break;
+    case 2:
+        cout << "Opción 2 seleccionada." << endl;
+        break;
+    case 3:
+        cout << "Opción 3 seleccionada." << endl;
+        break;
+    default:
+        cout << "Opción no válida." << endl;
+        break;
+}
+```
+En este ejemplo, se utiliza la estructura de control switch para realizar diferentes acciones en función del valor de la variable option. Si option es igual a 1, se imprime "Opción 1 seleccionada", si es igual a 2 se imprime "Opción 2 seleccionada", si es igual a 3 se imprime "Opción 3 seleccionada", y si no se cumple ninguno de estos casos se imprime "Opción no válida".
+
+- While:
+```
+int i = 0;
+while (i < 10) {
+    cout << i << endl;
+    i++;
+}
+```
+En este ejemplo, se utiliza la estructura de control while para imprimir los números del 0 al 9. Mientras i sea menor que 10, se imprimirá el valor de i y se incrementará en 1. Este proceso se repetirá hasta que i sea igual a 10.
+
+- Do-while:
+```
+int i = 0;
+do {
+    cout << i << endl;
+    i++;
+} while (i < 10);
+```
+Este ejemplo es similar al anterior, pero utiliza la estructura de control do-while. En este caso, se imprime el valor de i y se incrementa en 1, y luego se verifica si i es menor que 10. Si es así, se repite el proceso, de lo contrario se sale del ciclo.
+
+- For:
+```
+for (int i = 0; i < 10; i++) {
+    cout << i << endl;
+}
+```
+En este ejemplo, se utiliza la estructura de control for para imprimir los números del 0 al 9. La variable i se inicializa en 0, y mientras i sea menor que 10 se imprimirá su valor y se incrementará en 1. Este proceso se repetirá hasta que i sea igual a 10.
 
 ## Lección 4: Funciones y procedimientos (2 horas)
 - Funciones y procedimientos: definición, - parámetros, valores de retorno.
