@@ -1,10 +1,28 @@
 
 # Curso de fundamentos de programación
 
-## Lección 0: Charla de un estudiante a otro, y las reglas a cumplir como estudiante de tutorías.
+## Índice
+- [Charla de un estudiante a otro…](#l-0)
+- [Introducción a la programación y a C++](#l-1)
+- [Entrada y salida de datos](#l-2)
+- [Estructuras de control de flujo](#l-3)
+- [Funciones y procedimientos](#l-4)
+- [Arreglos y matrices](#l-5)
+- [Punteros y referencias](#l-6)
+- [Estructuras y uniones](#l-7)
+- [Archivos y streams](#l-8)
+- [Programación orientada a objetos](#l-9)
+- [Herencia y polimorfismo](#l-10)
+- [Excepciones y manejo de errores](#l-11)
+- [Programación genérica y templates](#l-12)
+- [Algoritmos y estructuras de datos](#l-13)
+- [STL (Standard Template Library)](#l-14)
+
+## <a id="l-0"></a>Lección 0: Charla de un estudiante a otro, y las reglas a cumplir como estudiante de tutorías.
 - Registro en Replit: https://replit.com
 - Instalación de TeamViewer
-## Lección 1: Introducción a la programación y a C++ (1 horas)
+- 
+## <a id="l-1"></a>Lección 1: Introducción a la programación y a C++ (1 horas)
 
 - Conceptos básicos de programación: algoritmos, variables, tipos de datos, operadores, etc.
 - Introducción a C++: historia, características, instalación del compilador y del entorno de desarrollo.
@@ -34,7 +52,7 @@ Biblioteca estándar: C++ cuenta con una amplia biblioteca estándar que proporc
 
 En resumen, el proceso de compilación y ejecución en C++ implica la escritura del código fuente, la compilación del código fuente en un archivo objeto, el enlace de los archivos objeto en un archivo ejecutable y, finalmente, la ejecución del programa en el sistema operativo.
 
-## Lección 2: Entrada y salida de datos (2 horas)
+## <a id="l-2"></a>Lección 2: Entrada y salida de datos (2 horas)
 - Entrada y salida de datos: cin, cout, cerr, clog.
 - Formato de entrada y salida de datos.
 - Ejemplos prácticos de uso.
@@ -147,7 +165,7 @@ Pedro Ramirez       45      1.80
 Este ejemplo muestra cómo los manipuladores de formato pueden ser útiles para mostrar los datos de una manera clara y organizada, lo que puede ser especialmente importante cuando se trabaja con grandes cantidades de información.
 
 
-## Lección 3: Estructuras de control de flujo (2 horas)
+## <a id="l-3"></a>Lección 3: Estructuras de control de flujo (2 horas)
 - Estructuras de control de flujo: if, switch, while, do-while, for.
 - Ejemplos prácticos de uso.
 
@@ -273,54 +291,54 @@ for (int i = 0; i < 10; i++) {
 ```
 En este ejemplo, se utiliza la estructura de control for para imprimir los números del 0 al 9. La variable i se inicializa en 0, y mientras i sea menor que 10 se imprimirá su valor y se incrementará en 1. Este proceso se repetirá hasta que i sea igual a 10.
 
-## Lección 4: Funciones y procedimientos (2 horas)
+## <a id="l-4"></a>Lección 4: Funciones y procedimientos (2 horas)
 - Funciones y procedimientos: definición, - parámetros, valores de retorno.
 - Ejemplos prácticos de uso.
 
-## Lección 5: Arreglos y matrices (2 horas)
+## <a id="l-5"></a>Lección 5: Arreglos y matrices (2 horas)
 - Arreglos: definición, acceso a elementos, inicialización.
 - Matrices: definición, acceso a elementos, inicialización.
 - Ejemplos prácticos de uso.
 
-## Lección 6: Punteros y referencias (2 horas)
+## <a id="l-6"></a>Lección 6: Punteros y referencias (2 horas)
 - Punteros y referencias: definición, operaciones básicas.
 - Ejemplos prácticos de uso.
 
-## Lección 7: Estructuras y uniones (2 horas)
+## <a id="l-7"></a>Lección 7: Estructuras y uniones (2 horas)
 -Estructuras: definición, acceso a miembros, inicialización.
 - Uniones: definición, uso, comparación con estructuras.
 - Ejemplos prácticos de uso.
 
-## Lección 8: Archivos y streams (2 horas)
+## <a id="l-8"></a>Lección 8: Archivos y streams (2 horas)
 - Archivos y streams: apertura, lectura y escritura de archivos.
 - Ejemplos prácticos de uso.
 
-## Lección 9: Programación orientada a objetos (2 horas)
+## <a id="l-9"></a>Lección 9: Programación orientada a objetos (2 horas)
 - Conceptos básicos de la programación orientada a objetos: clases, objetos, atributos, métodos.
 - Introducción a la sintaxis de C++ para programación orientada a objetos.
 - Ejemplos prácticos de uso.
 
-## Lección 10: Herencia y polimorfismo (2 horas)
+## <a id="l-10"></a>Lección 10: Herencia y polimorfismo (2 horas)
 - Herencia: definición, uso, clases base y clases derivadas.
 - Polimorfismo: definición, uso, clases abstractas y clases concretas.
 - Ejemplos prácticos de uso.
-## Lección 11: Excepciones y manejo de errores (2 horas)
+## <a id="l-11"></a>Lección 11: Excepciones y manejo de errores (2 horas)
 - Excepciones: definición, uso, captura de excepciones.
 - Manejo de errores: try, catch, throw.
 - Ejemplos prácticos de uso.
 
-## Lección 12: Programación genérica y templates (2 horas)
+## <a id="l-12"></a>Lección 12: Programación genérica y templates (2 horas)
 - Programación genérica: definición, uso, ventajas.
 - Templates: definición, uso, funciones y clases templates.
 - Ejemplos prácticos de uso.
 
-## Lección 13: Algoritmos y estructuras de datos (2 horas)
+## <a id="l-13"></a>Lección 13: Algoritmos y estructuras de datos (2 horas)
 - Algoritmos: definición, uso, complejidad.
 Estructuras de datos: pilas, colas, listas, árboles.
 - Ejemplos prácticos de uso.
 Lección 14: STL (Standard Template Library) (2 horas)
 
-## Lección 14: STL (Standard Template Library) (2 horas)
+## <a id="l-14"></a>Lección 14: STL (Standard Template Library) (2 horas)
 - Introducción
 
 ## Recomendación personal
